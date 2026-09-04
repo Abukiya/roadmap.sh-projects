@@ -2,18 +2,17 @@
 
 A responsive multi-page personal portfolio website, built as a solution for **Beginner Project #2 (Basic HTML Website)** and **#3 (Personal Portfolio)** from [roadmap.sh](https://roadmap.sh/projects).
 
-## Live Preview
+## Screenshots
 
-Open `homepage.html` in your browser to view the site.
+### Desktop
 
-## Pages
+![Homepage](screenshots/homepage.png)
+![Contact](screenshots/contact.png)
 
-| Page | File | Description |
-|------|------|-------------|
-| Home | `homepage.html` | Landing page with projects, experience, education, and client reviews |
-| About | `about.html` | Brief bio and background |
-| Projects | `projects.html` | Projects overview page |
-| Contact | `contact.html` | Contact form with name, email, and message fields |
+### Mobile
+
+![Homepage Mobile](screenshots/homepage-mobile.png)
+![Contact Mobile](screenshots/contact-mobile.png)
 
 ## Tech Stack
 
