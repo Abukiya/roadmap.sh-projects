@@ -1,6 +1,6 @@
 # Testimonial Cards
 
-A responsive testimonial cards layout built with HTML and Tailwind CSS. A solution for **Beginner Project #5 (Testimonial Cards)** from [roadmap.sh](https://roadmap.sh/projects).
+A responsive testimonial cards layout built with HTML and Tailwind CSS. A solution for **Beginner Project #5 (Testimonial Cards)** from [roadmap.sh](https://roadmap.sh/projects/testimonial-cards).
 
 ## Screenshots
 

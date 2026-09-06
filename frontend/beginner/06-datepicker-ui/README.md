@@ -1,6 +1,6 @@
 # Datepicker UI
 
-A static datepicker UI component built with HTML and Tailwind CSS. A solution for **Beginner Project #6 (Datepicker UI)** from [roadmap.sh](https://roadmap.sh/projects).
+A static datepicker UI component built with HTML and Tailwind CSS. A solution for **Beginner Project #6 (Datepicker UI)** from [roadmap.sh](https://roadmap.sh/projects/datepicker-ui).
 
 ## Screenshots
 

@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A responsive multi-page personal portfolio website, built as a solution for **Beginner Project #2 (Basic HTML Website)** and **#3 (Personal Portfolio)** from [roadmap.sh](https://roadmap.sh/projects).
+A responsive multi-page personal portfolio website, built as a solution for **Beginner Project #2 (Basic HTML Website)** and **#3 (Personal Portfolio)** from [roadmap.sh](https://roadmap.sh/projects/portfolio-website).
 
 ## Screenshots
 

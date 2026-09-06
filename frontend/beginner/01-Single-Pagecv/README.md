@@ -1,6 +1,6 @@
 # Single Page CV
 
-A beginner frontend project from the [roadmap.sh](https://roadmap.sh/frontend) project list.
+A solution for **Beginner Project #1 (Single Page CV)** from [roadmap.sh](https://roadmap.sh/projects/single-page-cv).
 
 ## Screenshots
 

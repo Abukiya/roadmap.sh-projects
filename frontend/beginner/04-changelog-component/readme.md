@@ -1,6 +1,6 @@
 # Changelog Component
 
-A vertical timeline changelog component built with Tailwind CSS. A solution for **Beginner Project #4 (Changelog Component)** from [roadmap.sh](https://roadmap.sh/projects).
+A vertical timeline changelog component built with Tailwind CSS. A solution for **Beginner Project #4 (Changelog Component)** from [roadmap.sh](https://roadmap.sh/projects/changelog-component).
 
 ## Screenshots
 
