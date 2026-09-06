@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datepicker UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body class="flex justify-center items-center h-screen bg-gray-100">
+    <div class="flex flex-col justify-center items-center p-1 gap-1 w-88">
+      <div class="flex flex-row items-center w-full">
+        <input
+          class="pl-3 pr-2 py-2 bg-white border-2 border-black rounded-l-lg flex-1 duration-200 placeholder:text-gray-400"
+          type="text"
+          placeholder="dd/mm/yyyy"
+        />
+        <button
+          class="p-2 border-t-2 border-r-2 border-b-2 border-t-black border-r-black border-b-black rounded-r-lg"
+        >
+          <i class="fa-solid fa-calendar-days"></i>
+        </button>
+      </div>
+      <div class="w-full">
+        <div
+          class="flex flex-row w-full justify-between items-center gap-2 p-1 border-2 border-black rounded-lg"
+        >
+          <button id="prev" class="border-2 border-black p-2 rounded-lg">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <h3 class="text-center text-lg font-bold">March 2024</h3>
+          <button id="next" class="border-2 border-black p-2 rounded-lg">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="w-full">
+        <table class="w-full border-2 border-black text-center">
+          <tr class="bg-gray-300 border-b-2 border-black">
+            <th class="p-2 border-r-2 border-black">Sun</th>
+            <th class="p-2 border-r-2 border-black">Mon</th>
+            <th class="p-2 border-r-2 border-black">Tue</th>
+            <th class="p-2 border-r-2 border-black">Wed</th>
+            <th class="p-2 border-r-2 border-black">Thu</th>
+            <th class="p-2 border-r-2 border-black">Fri</th>
+            <th class="p-2 border-r-2 border-black">Sat</th>
+          </tr>
+          <tr class="border-b-2 border-black">
+            <td class="p-2 border-r-2 border-black">1</td>
+            <td class="p-2 border-r-2 border-black">2</td>
+            <td class="p-2 border-r-2 border-black">3</td>
+            <td class="p-2 border-r-2 border-black">4</td>
+            <td class="p-2 border-r-2 border-black">5</td>
+            <td class="p-2 border-r-2 border-black">6</td>
+            <td class="p-2 border-r-2 border-black">7</td>
+          </tr>
+          <tr class="border-b-2 border-black">
+            <td class="p-2 border-r-2 border-black">8</td>
+            <td class="p-2 border-r-2 border-black">9</td>
+            <td class="p-2 border-r-2 border-black">10</td>
+            <td class="p-2 border-r-2 border-black">11</td>
+            <td class="p-2 border-r-2 border-black">12</td>
+            <td class="p-2 border-r-2 border-black">13</td>
+            <td class="p-2 border-r-2 border-black">14</td>
+          </tr>
+          <tr class="border-b-2 border-black">
+            <td class="p-2 border-r-2 border-black">15</td>
+            <td class="p-2 border-r-2 border-black">16</td>
+            <td class="p-2 border-r-2 border-black">17</td>
+            <td class="p-2 border-r-2 border-black">18</td>
+            <td class="p-2 border-r-2 border-black">19</td>
+            <td class="p-2 border-r-2 border-black">20</td>
+            <td class="p-2 border-r-2 border-black">21</td>
+          </tr>
+          <tr class="border-b-2 border-black">
+            <td class="p-2 border-r-2 border-black">22</td>
+            <td class="p-2 border-r-2 border-black">23</td>
+            <td class="p-2 border-r-2 border-black">24</td>
+            <td class="p-2 border-r-2 border-black">25</td>
+            <td class="p-2 border-r-2 border-black">26</td>
+            <td class="p-2 border-r-2 border-black">27</td>
+            <td class="p-2 border-r-2 border-black">28</td>
+          </tr>
+          <tr class="border-b-2 border-black">
+            <td class="p-2 border-r-2 border-black">29</td>
+            <td class="p-2 border-r-2 border-black">30</td>
+            <td class="p-2 border-r-2 border-black">31</td>
+            <td class="p-2 border-r-2 border-black"></td>
+            <td class="p-2 border-r-2 border-black"></td>
+            <td class="p-2 border-r-2 border-black"></td>
+            <td class="p-2 border-r-2 border-black"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
