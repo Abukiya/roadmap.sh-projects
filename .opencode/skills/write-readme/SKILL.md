@@ -69,9 +69,18 @@ Abukiya - 2026
 
 6. **Adjust based on project** - Modify the Tech Stack section if the project uses different technologies (check `index.html` for what's actually used).
 
+7. **Update root `readme.md`** - Add a commented link to the project list:
+   - Read `readme.md` from the workspace root
+   - Find the correct section based on:
+     - Area: `frontend` or `backend` (from path)
+     - Level: `beginner`, `intermediate`, or `advanced` (from path)
+   - Insert the link in commented format: `<!--[Project Name](https://roadmap.sh/projects/<slug>)-->`
+   - Insert below existing links in that section, or under the level heading if it's the first project
+
 ## Notes
 
 - Always use "Abukiya - 2026" as author
 - Always include the roadmap.sh project number
 - Screenshot should be saved as `screenshot.png` in the project directory
 - If chromium is not available, skip the screenshot and note it in the README
+- Root `readme.md` links must be commented: `<!--[Project Name](https://roadmap.sh/projects/<slug>)-->`
