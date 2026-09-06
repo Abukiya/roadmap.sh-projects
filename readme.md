@@ -54,6 +54,7 @@ Each project should have its own `README.md` describing:
 #### Beginner
 
 <!--[Single Page CV](https://roadmap.sh/projects/single-page-cv)-->
+<!--[basic html website](https://roadmap.sh/projects/basic-html-website)-->
 <!--[Personal Portfolio](https://roadmap.sh/projects/portfolio-website)-->
 <!--[Changelog Component](https://roadmap.sh/projects/changelog-component)-->
 <!--[Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)-->
