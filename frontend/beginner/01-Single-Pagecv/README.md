@@ -1,6 +1,6 @@
 # Single Page CV
 
-A solution for **Beginner Project #1 (Single Page CV)** from [roadmap.sh](https://roadmap.sh/projects/single-page-cv).
+A solution for **Beginner Project #1 (Single Page CV)** from [single page cv](https://roadmap.sh/projects/single-page-cv).
 
 ## Screenshots
 
