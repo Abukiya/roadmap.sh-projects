@@ -53,4 +53,4 @@ Each project should have its own `README.md` describing:
 
 #### Beginner
 
-- [Single Page CV](frontend/beginner/Single-Page-cv_1/)
+<!--[Single Page CV](https://roadmap.sh/projects/single-page-cv)-->
