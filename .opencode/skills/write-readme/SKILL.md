@@ -1,22 +1,25 @@
 ---
 name: write-readme
-description: Use when the user says "Write readme for project #X, I learned..." to automatically create a README file for a roadmap.sh project following the established structure.
+description: Use when the user says "Write readme for project #X <slug>, I learned..." to automatically create a README file for a roadmap.sh project following the established structure.
 ---
 
 # Write README Skill
 
-When the user says "Write readme for project #X, I learned [things]", follow these steps:
+When the user says "Write readme for project #X <slug>, I learned [things]", follow these steps:
+
+**Example input:** "Write readme for project #6 single-page-cv, I learned about meta tags and responsive design"
 
 ## Steps
 
 1. **Parse the input** - Extract:
    - Project number from the message (e.g., "#5" → 5)
+   - Project slug from the message (e.g., "single-page-cv", "testimonial-cards")
    - What the user learned (the text after "I learned")
 
 2. **Read existing READMEs** for structure reference:
-   - `frontend/beginner/Single-Page-cv_1/README.md`
-   - `frontend/beginner/portfolio-no2-n-3/readme.md`
-   - `frontend/beginner/changelog-component/readme.md`
+   - `frontend/beginner/01-Single-Pagecv/README.md`
+   - `frontend/beginner/02-n-03-portfolio/readme.md`
+   - `frontend/beginner/04-changelog-component/readme.md`
 
 3. **Find the project directory** - Look for the folder that matches the project number or contains the recent work. If not found, ask the user which folder to use.
 
@@ -31,7 +34,7 @@ When the user says "Write readme for project #X, I learned [things]", follow the
 ```markdown
 # [Project Name]
 
-[Description]. A solution for **Beginner Project #[N] ([Project Name])** from [roadmap.sh](https://roadmap.sh/projects).
+[Description]. A solution for **Beginner Project #[N] ([Project Name])** from [roadmap.sh](https://roadmap.sh/projects/<slug>).
 
 ## Screenshots
 
