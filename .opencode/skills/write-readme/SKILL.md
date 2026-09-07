@@ -77,6 +77,21 @@ Abukiya - 2026
    - Insert the link in commented format: `<!--[Project Name](https://roadmap.sh/projects/<slug>)-->`
    - Insert below existing links in that section, or under the level heading if it's the first project
 
+8. **Add image grid to root `readme.md`** - Add thumbnail images in a 3-column table:
+   - Auto-detect screenshot path (check in order): `screenshots/desktop.png`, `screenshots/homepage.png`, `screenshot.png`
+   - Format: `[![Project Name](relative-image-path)](github-url)<br>Project Name`
+
+   - Add after the commented links in the correct section
+   - Use a 3-column markdown table layout
+
+9. **Update area `README.md`** (e.g., `frontend/README.md`):
+   - append the project list with clickable link
+   - Format: `- [Project Name](beginner/project-folder/)`
+
+10. **Update level `README.md`** (e.g., `frontend/beginner/README.md`):
+    - Append project names and description in the table
+    - Format: `| # | [Project Name](folder/) | Description |`
+
 ## Notes
 
 - Always use "Abukiya - 2026" as author
@@ -84,3 +99,4 @@ Abukiya - 2026
 - Screenshot should be saved as `screenshot.png` in the project directory
 - If chromium is not available, skip the screenshot and note it in the README
 - Root `readme.md` links must be commented: `<!--[Project Name](https://roadmap.sh/projects/<slug>)-->`
+- GitHub repo base URL: `https://github.com/Abukiya/roadmap.sh_projects`
