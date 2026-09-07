@@ -51,7 +51,6 @@ When the user says "Write readme for project #X <slug>, I learned [things]", fol
 
 [What the user told you they learned]
 
-I got help from AI (OpenCode) to understand how to [relevant context].
 
 ## How to Run
 

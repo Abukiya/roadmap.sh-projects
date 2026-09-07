@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tooltip UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div>
+      <div class="flex justify-center items-center h-screen gap-4">
+        <button class="bg-blue-500 text-white px-4 py-2 rounded relative group">
+          Home
+          <span
+            class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-sm rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            GO to Home Page
+            <div
+              class="w-0 h-0 border-l-[10px] border-r-[10px] border-t-[10px] border-l-transparent border-r-transparent border-t-gray-800 absolute top-100 left-1/2 transform -translate-x-1/2"
+            ></div>
+          </span>
+        </button>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded relative group">
+          Projects
+          <span
+            class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-sm rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            Here you can find all my projects.
+            <div
+              class="w-0 h-0 border-l-[10px] border-r-[10px] border-t-[10px] border-l-transparent border-r-transparent border-t-gray-800 absolute top-100 left-1/2 transform -translate-x-1/2"
+            ></div>
+          </span>
+        </button>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded relative group">
+          Blogs
+          <span
+            class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-max bg-gray-800 text-white text-sm rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            Here you can find all my blogs.
+            <div
+              class="w-0 h-0 border-l-[10px] border-r-[10px] border-t-[10px] border-l-transparent border-r-transparent border-t-gray-800 absolute top-100 left-1/2 transform -translate-x-1/2"
+            ></div>
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

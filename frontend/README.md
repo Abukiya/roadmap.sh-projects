@@ -21,6 +21,7 @@ frontend/
 - [Datepicker UI](beginner/06-datepicker-ui/)
 - [Accessible Form UI](beginner/07-accessible-form-ui/)
 - [Image Grid](beginner/08-image-grid/)
+- [Tooltip UI](beginner/09-tooltip-ui/)
 
 ### Intermediate
 *(Coming soon)*
