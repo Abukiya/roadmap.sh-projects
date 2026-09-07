@@ -61,3 +61,9 @@ Each project should have its own `README.md` describing:
 <!--[Datepicker UI](https://roadmap.sh/projects/datepicker-ui)-->
 <!--[Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)-->
 <!--[Image Grid](https://roadmap.sh/projects/image-grid)-->
+
+| | | |
+|:---:|:---:|:---:|
+| [![Single Page CV](frontend/beginner/01-Single-Pagecv/screenshots/desktop.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/01-Single-Pagecv)<br>Single Page CV | [![Portfolio](frontend/beginner/02-n-03-portfolio/screenshots/homepage.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/02-n-03-portfolio)<br>Portfolio | [![Changelog Component](frontend/beginner/04-changelog-component/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/04-changelog-component)<br>Changelog Component |
+| [![Testimonial Cards](frontend/beginner/05-testimonial-cards/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/05-testimonial-cards)<br>Testimonial Cards | [![Datepicker UI](frontend/beginner/06-datepicker-ui/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/06-datepicker-ui)<br>Datepicker UI | [![Accessible Form UI](frontend/beginner/07-accessible-form-ui/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/07-accessible-form-ui)<br>Accessible Form UI |
+| [![Image Grid](frontend/beginner/08-image-grid/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/08-image-grid)<br>Image Grid | | |

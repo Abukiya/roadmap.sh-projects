@@ -14,9 +14,13 @@ frontend/
 ## Categories
 
 ### Beginner
-- Single Page CV
-- Portfolio
-- Changelog Component
+- [Single Page CV](beginner/01-Single-Pagecv/)
+- [Portfolio](beginner/02-n-03-portfolio/)
+- [Changelog Component](beginner/04-changelog-component/)
+- [Testimonial Cards](beginner/05-testimonial-cards/)
+- [Datepicker UI](beginner/06-datepicker-ui/)
+- [Accessible Form UI](beginner/07-accessible-form-ui/)
+- [Image Grid](beginner/08-image-grid/)
 
 ### Intermediate
 *(Coming soon)*
