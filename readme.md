@@ -60,3 +60,4 @@ Each project should have its own `README.md` describing:
 <!--[Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)-->
 <!--[Datepicker UI](https://roadmap.sh/projects/datepicker-ui)-->
 <!--[Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)-->
+<!--[Image Grid](https://roadmap.sh/projects/image-grid)-->
