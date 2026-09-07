@@ -47,6 +47,10 @@ Each project should have its own `README.md` describing:
 - what I learned
 - a link to the live version, when available
 
+## Automation
+
+Project READMEs are auto-generated using an AI skill located at `.opencode/skills/write-readme/`.
+
 ## Current Projects
 
 ### Frontend
