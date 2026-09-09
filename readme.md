@@ -66,6 +66,7 @@ Project READMEs are auto-generated using an AI skill located at `.opencode/skill
 <!--[Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)-->
 <!--[Image Grid](https://roadmap.sh/projects/image-grid)-->
 <!--[Tooltip UI](https://roadmap.sh/projects/tooltip-ui)-->
+<!--[Simple Tabs](https://roadmap.sh/projects/simple-tabs)-->
 
 Click any image to go to the project directory.
 
@@ -73,4 +74,4 @@ Click any image to go to the project directory.
 |:---:|:---:|:---:|
 | [![Single Page CV](frontend/beginner/01-Single-Pagecv/screenshots/desktop.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/01-Single-Pagecv)<br>Single Page CV | [![Portfolio](frontend/beginner/02-n-03-portfolio/screenshots/homepage.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/02-n-03-portfolio)<br>Portfolio | [![Changelog Component](frontend/beginner/04-changelog-component/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/04-changelog-component)<br>Changelog Component |
 | [![Testimonial Cards](frontend/beginner/05-testimonial-cards/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/05-testimonial-cards)<br>Testimonial Cards | [![Datepicker UI](frontend/beginner/06-datepicker-ui/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/06-datepicker-ui)<br>Datepicker UI | [![Accessible Form UI](frontend/beginner/07-accessible-form-ui/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/07-accessible-form-ui)<br>Accessible Form UI |
-| [![Image Grid](frontend/beginner/08-image-grid/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/08-image-grid)<br>Image Grid | [![Tooltip UI](frontend/beginner/09-tooltip-ui/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/09-tooltip-ui)<br>Tooltip UI | |
+| [![Image Grid](frontend/beginner/08-image-grid/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/08-image-grid)<br>Image Grid | [![Tooltip UI](frontend/beginner/09-tooltip-ui/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/09-tooltip-ui)<br>Tooltip UI | [![Simple Tabs](frontend/beginner/10-simple-tabs/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/beginner/10-simple-tabs)<br>Simple Tabs |

@@ -14,6 +14,7 @@ Beginner-level frontend projects from [roadmap.sh](https://roadmap.sh/projects).
 | 6 | [Accessible Form UI](07-accessible-form-ui/) | An accessible form UI |
 | 7 | [Image Grid](08-image-grid/) | An image grid layout |
 | 8 | [Tooltip UI](09-tooltip-ui/) | A CSS-only tooltip component |
+| 9 | [Simple Tabs](10-simple-tabs/) | An accessible tab interface |
 
 ## Tech Stack
 
