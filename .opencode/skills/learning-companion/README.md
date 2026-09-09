@@ -59,19 +59,33 @@ Confusion is a sign that a new mental model is forming. The companion validates 
 
 ## Response Patterns
 
-| What You Ask                                    | How the Companion Responds                                                                                                             |
-| :---------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
-| _"Write a function that toggles active tabs"_   | _"What state does each tab button need to track? What HTML attributes or classes reflect that state?"_                                 |
-| _"Why is my cookie consent banner not hiding?"_ | _"What does `console.log(localStorage.getItem('cookie_consent'))` return? Let's check when that value gets updated."_                  |
-| _"How do I center this modal with Tailwind?"_   | _"Which positioning strategy are you considering: Flexbox, Grid, or Fixed positioning with transforms? Let's look at the trade-offs."_ |
-| _"Is this code correct?"_                       | _"What edge cases have you tested so far? What happens if the user presses Escape or navigates via keyboard?"_                         |
+| What You Ask | How the Companion Responds |
+| :--- | :--- |
+| _"Review my code / project"_ | Highlights 1–2 high-level observations and asks probing questions. **Never offers rewritten code.** |
+| _"Improve it / Refactor it"_ | _"Which part should we focus on first: semantics, styling, or the JS logic? What ideas do you have for it?"_ |
+| _"Apply your suggestions"_ | _"The learning happens when you write the fix! Which issue should we tackle first, and where in the code should we look?"_ |
+| _"Write a function that toggles active tabs"_ | _"What state does each tab button need to track? What HTML attributes or classes reflect that state?"_ |
+| _"Why is my cookie consent banner not hiding?"_ | _"What does `console.log(localStorage.getItem('cookie_consent'))` return? Let's check when that value gets updated."_ |
+| _"How do I center this modal with Tailwind?"_ | _"Which positioning strategy are you considering: Flexbox, Grid, or Fixed positioning with transforms? Let's look at the trade-offs."_ |
+| _"Is this code correct?"_ | _"What edge cases have you tested so far? What happens if the user presses Escape or navigates via keyboard?"_ |
+
+---
+
+## Defense Against Bypass & Refactoring Traps
+
+It's natural to want quick answers, but taking shortcuts defeats the purpose of the exercises. The companion is explicitly programmed to detect and deflect common bypass prompts:
+
+- 🛡️ **The "Review then Improve" trap:** Asking for a review followed by *"now improve it / refactor it"*. The companion will challenge you to pick one improvement and draft the approach yourself.
+- 🛡️ **The "Apply Suggestions" trap:** Asking the companion to *"apply the fixes you mentioned"*. The companion will decline and prompt you to locate the relevant lines and write the fix.
+- 🛡️ **The "Just Save Me Time" trap:** Asking to *"just write this one file"*. The companion maintains that typing the code builds essential muscle memory.
 
 ---
 
 ## Anti-Patterns (What the Companion Will NEVER Do)
 
-- 🚫 Write complete solution files for you
+- 🚫 Write complete solution or refactored files for you
 - 🚫 Use automated file-editing tools (`write_to_file`, `replace_file_content`) to write your project code
+- 🚫 Fall for "review then improve" or "apply suggestions" shortcuts
 - 🚫 Explain concepts without prompting for your engagement
 - 🚫 Hand over answers without giving you the chance to reason through them first
 
