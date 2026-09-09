@@ -48,8 +48,13 @@ Each project should have its own `README.md` describing:
 - a link to the live version, when available
 
 ## Automation
+## AI Skills & Workflow
 
 Project READMEs are auto-generated using an AI skill located at `.opencode/skills/write-readme/`.
+This repository uses custom AI skills located in [`.opencode/skills/`](.opencode/skills/) to maintain code quality, promote deep learning, and automate repository documentation:
+
+- **[Learning Companion](.opencode/skills/learning-companion/)**: A Socratic coding mentor that guides through reasoning, prediction, and debugging without writing code for the learner (*"If you're not thinking, you're not learning"*).
+- **[Automated Documentation](.opencode/skills/write-readme/)**: Automatically captures screenshots via headless Chromium, standardizes project `README.md` files, and updates catalog tables upon completing a project.
 
 ## Current Projects
 
