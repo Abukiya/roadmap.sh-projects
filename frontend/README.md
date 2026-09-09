@@ -23,6 +23,7 @@ frontend/
 - [Image Grid](beginner/08-image-grid/)
 - [Tooltip UI](beginner/09-tooltip-ui/)
 - [Simple Tabs](beginner/10-simple-tabs/)
+- [Cookie Consent](beginner/11-cookie-consent/)
 
 ### Intermediate
 *(Coming soon)*

@@ -8,10 +8,10 @@ Each skill extends the AI's capabilities or enforces specific coding methodologi
 
 ## Available Skills
 
-| Skill | Directory | Purpose | Trigger / Activation |
-| :--- | :--- | :--- | :--- |
+| Skill                                         | Directory                                    | Purpose                                                                                                                       | Trigger / Activation                                                                                                         |
+| :-------------------------------------------- | :------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
 | **[learning-companion](learning-companion/)** | [`learning-companion/`](learning-companion/) | Socratic coding coach that guides through questions, predictions, and debugging strategies without writing solutions for you. | Automatically triggers during learning tasks, concept questions, and bug debugging, or via `"guide me"` / `"learning mode"`. |
-| **[write-readme](write-readme/)** | [`write-readme/`](write-readme/) | Automates generating standardized project READMEs, capturing desktop screenshots, and updating catalog tables. | Explicitly triggered: `"Write readme for project #X <slug>, I learned..."` |
+| **[write-readme](write-readme/)**             | [`write-readme/`](write-readme/)             | Automates generating standardized project READMEs, capturing desktop screenshots, and updating catalog tables.                | Explicitly triggered: `"Write readme for project #X <slug>, I learned..."`                                                   |
 
 ---
 
@@ -29,6 +29,7 @@ Skills are discovered by OpenCode through the root configuration file [`opencode
 ```
 
 Each skill folder contains:
+
 - **`SKILL.md`**: Contains YAML frontmatter (`name`, `description`) and the execution instructions/guardrails for the AI.
 - **`README.md`**: Human-readable documentation, rationale, and usage examples.
 
@@ -42,4 +43,3 @@ flowchart LR
     B -->|"Solution Complete & Verified"| C["write-readme"]
     C -->|"Screenshots & Index Tables Updated"| D["Repository Ready & Committed"]
 ```
-

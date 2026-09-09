@@ -12,6 +12,7 @@ A Socratic coding mentor designed to guide learners to think, predict, and reaso
 When tackling projects from [roadmap.sh](https://roadmap.sh), the goal is not merely having finished code in the repository—it is building lasting mental models, debugging instincts, and problem-solving resilience.
 
 The **Learning Companion** intercepts the habit of asking AI to "write me X" or "fix this bug", redirecting the conversation toward guided discovery:
+
 - **Diagnostic questions** instead of instant answers
 - **Concept explanations and docs references** instead of full code snippets
 - **Hypothesis testing & prediction** before running or checking code
@@ -31,33 +32,39 @@ flowchart TD
 ```
 
 ### 1. Ask Before Answering
+
 Before providing technical guidance, the companion asks you to predict the behavior, reason through inputs/outputs, or articulate your current mental model:
-- *"What do you think happens when this event fires?"*
-- *"Can you predict the output with an empty input array?"*
-- *"What would you try first to isolate whether it's a CSS or JS issue?"*
+
+- _"What do you think happens when this event fires?"_
+- _"Can you predict the output with an empty input array?"_
+- _"What would you try first to isolate whether it's a CSS or JS issue?"_
 
 ### 2. Guide, Don't Give
+
 Instead of writing boilerplate or complete functions, the companion points to official documentation, relevant MDN guides, or key CSS/DOM APIs.
 
 ### 3. Diagnose Thinking Gaps
+
 When you encounter a bug, the companion helps you formulate a debugging strategy rather than pointing out the line with the typo:
-- *"What was the expected behavior vs. actual behavior?"*
-- *"Let's trace through the state changes step-by-step."*
-- *"Where could we add a `console.log` or breakpoint to test that assumption?"*
+
+- _"What was the expected behavior vs. actual behavior?"_
+- _"Let's trace through the state changes step-by-step."_
+- _"Where could we add a `console.log` or breakpoint to test that assumption?"_
 
 ### 4. Celebrate Struggle & Confusion
+
 Confusion is a sign that a new mental model is forming. The companion validates the difficulty and helps break complex concepts into manageable chunks.
 
 ---
 
 ## Response Patterns
 
-| What You Ask | How the Companion Responds |
-| :--- | :--- |
-| *"Write a function that toggles active tabs"* | *"What state does each tab button need to track? What HTML attributes or classes reflect that state?"* |
-| *"Why is my cookie consent banner not hiding?"* | *"What does `console.log(localStorage.getItem('cookie_consent'))` return? Let's check when that value gets updated."* |
-| *"How do I center this modal with Tailwind?"* | *"Which positioning strategy are you considering: Flexbox, Grid, or Fixed positioning with transforms? Let's look at the trade-offs."* |
-| *"Is this code correct?"* | *"What edge cases have you tested so far? What happens if the user presses Escape or navigates via keyboard?"* |
+| What You Ask                                    | How the Companion Responds                                                                                                             |
+| :---------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| _"Write a function that toggles active tabs"_   | _"What state does each tab button need to track? What HTML attributes or classes reflect that state?"_                                 |
+| _"Why is my cookie consent banner not hiding?"_ | _"What does `console.log(localStorage.getItem('cookie_consent'))` return? Let's check when that value gets updated."_                  |
+| _"How do I center this modal with Tailwind?"_   | _"Which positioning strategy are you considering: Flexbox, Grid, or Fixed positioning with transforms? Let's look at the trade-offs."_ |
+| _"Is this code correct?"_                       | _"What edge cases have you tested so far? What happens if the user presses Escape or navigates via keyboard?"_                         |
 
 ---
 
@@ -97,4 +104,3 @@ The companion is paired with the repository's documentation automation skill:
 - [SKILL.md](SKILL.md) — The system prompt and behavioral instructions executed by the AI.
 - [write-readme SKILL.md](../write-readme/SKILL.md) — The automated documentation skill.
 - [Skills Catalog](../README.md) — Index of all workspace skills.
-

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Consent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="relative w-full h-screen">
+      <div
+        id="cookie-consent"
+        role="alertdialog"
+        aria-labelledby="cookie-title"
+        aria-describedby="cookie-desc"
+        class="absolute bottom-5 right-5 flex flex-col gap-4 items-center p-6 bg-black text-white w-[calc(100%-2.5rem)] max-w-sm rounded-2xl"
+      >
+        <div class="flex items-center gap-2">
+          <i class="fas fa-cookie-bite text-2xl" aria-hidden="true"></i>
+          <h2 id="cookie-title" class="text-lg font-semibold">Cookie Consent</h2>
+        </div>
+        <p id="cookie-desc" class="text-sm text-center leading-relaxed">
+          We use cookies to improve your experience on our website. By browsing
+          this website, you agree to our use of cookies.
+          <a href="#" class="underline hover:text-gray-300">Learn more</a>
+        </p>
+        <div class="flex gap-2 w-full">
+          <button
+            id="decline-btn"
+            class="flex-1 border border-white px-4 py-2 rounded-lg hover:bg-gray-800 transition"
+          >
+            Decline
+          </button>
+          <button
+            id="accept-btn"
+            class="flex-1 bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-200 transition"
+          >
+            Accept
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const cookieConsent = document.getElementById("cookie-consent");
+      const acceptButton = document.getElementById("accept-btn");
+      const declineButton = document.getElementById("decline-btn");
+
+      function hideConsent() {
+        cookieConsent.style.display = "none";
+      }
+
+      function saveConsent(value) {
+        localStorage.setItem("cookie-consent", value);
+      }
+
+      if (localStorage.getItem("cookie-consent")) {
+        hideConsent();
+      } else {
+        acceptButton.addEventListener("click", () => {
+          saveConsent("accepted");
+          hideConsent();
+        });
+
+        declineButton.addEventListener("click", () => {
+          saveConsent("declined");
+          hideConsent();
+        });
+      }
+    </script>
+  </body>
+</html>
