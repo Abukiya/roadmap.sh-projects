@@ -16,6 +16,7 @@ Beginner-level frontend projects from [roadmap.sh](https://roadmap.sh/projects).
 | 8 | [Tooltip UI](09-tooltip-ui/) | A CSS-only tooltip component |
 | 9 | [Simple Tabs](10-simple-tabs/) | An accessible tab interface |
 | 10 | [Cookie Consent](11-cookie-consent/) | A GDPR cookie consent banner |
+| 12 | [Restricted Textarea](12-restricted-textarea/) | A character-restricted textarea with live count |
 
 ## Tech Stack
 

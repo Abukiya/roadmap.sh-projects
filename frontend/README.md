@@ -24,6 +24,7 @@ frontend/
 - [Tooltip UI](beginner/09-tooltip-ui/)
 - [Simple Tabs](beginner/10-simple-tabs/)
 - [Cookie Consent](beginner/11-cookie-consent/)
+- [Restricted Textarea](beginner/12-restricted-textarea/)
 
 ### Intermediate
 *(Coming soon)*

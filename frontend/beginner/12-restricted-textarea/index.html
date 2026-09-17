@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Consent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <style>
+    .max{
+      border-color: red !important;
+      color:red !important;
+    }
+  </style>
+  <body>
+
+    <div class="w-full h-screen flex items-center justify-center">
+      <div class="w-full max-w-xl p-4 rounded-2xl shadow-md relative">
+        <h1 class="text-2xl font-bold mb-4">Write Your Message</h1>
+        <textarea
+          id="message"
+          class="w-full min-h-32 p-2 border border-blue-300 rounded-2xl resize-none relative outline-none"
+          placeholder="Type your message here..."
+          maxlength="250"
+        ></textarea>
+        <p
+          id="char-count"
+          class="text-sm text-gray-500 mt-2 absolute bottom-8 right-8"
+        >
+          <span id="count">0</span>/250 
+        </p>
+      </div>
+    </div>
+    <script>
+      const charCount = document.getElementById("char-count");
+      const messag = document.getElementById("message");
+      const maxChars =250;
+
+      function updateCharCount(){
+        const textLen=messag.value.length;
+        charCount.innerHTML=`${textLen} / ${maxChars}`;
+        if(textLen >= 250){
+          messag.classList.add("max")
+          charCount.classList.add("max")
+        }
+        else{
+          messag.classList.remove("max")
+          charCount.classList.remove("max")
+        }
+      }
+      
+      messag.addEventListener("input",updateCharCount)
+    </script>
+  </body>
+</html>
+
+
