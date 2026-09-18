@@ -25,6 +25,7 @@ frontend/
 - [Simple Tabs](beginner/10-simple-tabs/)
 - [Cookie Consent](beginner/11-cookie-consent/)
 - [Restricted Textarea](beginner/12-restricted-textarea/)
+- [Accordion](beginner/13-accordion/)
 
 ### Intermediate
 *(Coming soon)*

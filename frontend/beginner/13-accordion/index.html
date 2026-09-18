@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Consent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body class="flex justify-center items-center h-screen">
+    <div class="w-full md:max-w-2xl p-4 grid gap-2">
+      <h1 class="text-xl font-bold px-2">Frequently Asked Questions</h1>
+      <h3 class="text-lg font-medium px-2">
+        Here are some of the frequently asked questions
+      </h3>
+      <div class="grid gap-1">
+        <div
+          class="accordion-btn bg-black text-white p-2 rounded-xl flex justify-between"
+        >
+          <p>What is roadmap.sh?</p>
+          <div class="accordion-icon p-1">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <div
+          class="accordion-answer border-2 border-black rounded-xl p-2 hidden"
+        >
+          roadmap.sh is a community effort to create learning paths, guides,
+          project ideas and other similar content to help developers grow in
+          their careers.
+        </div>
+      </div>
+      <div class="grid gap-1">
+        <div
+          class="accordion-btn bg-black text-white p-2 rounded-xl flex justify-between"
+        >
+          <p>What are the plans for roadmap.sh?</p>
+          <div class="accordion-icon p-1">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <div
+          class="accordion-answer border-2 border-black rounded-xl p-2 hidden"
+        >
+          The plans include expanding roadmaps for more roles, adding
+          interactive features, improving community contributions, and creating
+          more project-based learning resources.
+        </div>
+      </div>
+      <div class="grid gap-1">
+        <div
+          class="accordion-btn bg-black text-white p-2 rounded-xl flex justify-between"
+        >
+          <p>How is Roadmap.sh built?</p>
+          <div class="accordion-icon p-1">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <div
+          class="accordion-answer border-2 border-black rounded-xl p-2 hidden"
+        >
+          Roadmap.sh is built using Astro for the frontend, with content
+          managed through GitHub. It uses Tailwind CSS for styling and is open
+          source, allowing community contributions.
+        </div>
+      </div>
+      <div class="grid gap-1">
+        <div
+          class="accordion-btn bg-black text-white p-2 rounded-xl flex justify-between"
+        >
+          <p>Can i use Roadmap.sh in my term?</p>
+          <div class="accordion-icon p-1">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <div
+          class="accordion-answer border-2 border-black rounded-xl p-2 hidden"
+        >
+          Yes! Roadmap.sh is free to use. You can follow the roadmaps, track
+          your progress, and even contribute to the project. All content is
+          available under an open source license.
+        </div>
+      </div>
+      <div class="grid gap-1">
+        <div
+          class="accordion-btn bg-black text-white p-2 rounded-xl flex justify-between"
+        >
+          <p>How can i create a custom raodmap?</p>
+          <div class="accordion-icon p-1">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <div
+          class="accordion-answer border-2 border-black rounded-xl p-2 hidden"
+        >
+          You can create a custom roadmap by signing up, clicking on your
+          profile, and selecting "Create Roadmap." Then add topics, arrange
+          them in your preferred order, and share it with the community.
+        </div>
+      </div>
+      <div class="grid gap-1">
+        <div
+          class="accordion-btn bg-black text-white p-2 rounded-xl flex justify-between"
+        >
+          <p>Is Roadmp.sh rally 7th most stared project on Github?</p>
+          <div class="accordion-icon p-1">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <div
+          class="accordion-answer border-2 border-black rounded-xl p-2 hidden"
+        >
+          Yes! Roadmap.sh is one of the most starred projects on GitHub with
+          over 280k stars, making it one of the top open source projects on
+          the platform.
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelectorAll(".accordion-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const icon = btn.querySelector(".accordion-icon");
+          const answer = btn.nextElementSibling;
+          const isOpen = !answer.classList.contains("hidden");
+
+          if (isOpen) {
+            icon.innerHTML = '<i class="fa-solid fa-chevron-down"></i>';
+            answer.classList.add("hidden");
+          } else {
+            icon.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
+            document.querySelectorAll(".accordion-answer").forEach((ans) => {
+              ans.classList.add("hidden");
+            });
+            answer.classList.remove("hidden");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
