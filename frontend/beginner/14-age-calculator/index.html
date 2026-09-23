@@ -2,28 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Age calculator</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script type="importmap">
-      {
-        "imports": {
-          "date-fns": "./node_modules/date-fns/index.js",
-          "js-datepicker": "./node_modules/js-datepicker/dist/datepicker.min.js"
-        }
-      }
-    </script>
-    <script type="module" src="main.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
+    <title>14-age-calculator</title>
   </head>
-  <body class="flex justify-center items-center">
-    <div class="grid gap-2">
-      <h1>Hello world</h1>
-      <input type="text" id="my-date" placeholder="Pick a date" />
-      <button id="check">check</button>
-    </div>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
