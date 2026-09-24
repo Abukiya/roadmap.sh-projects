@@ -5,9 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>14-age-calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="flex justify-center h-screen items-center p-4">
+    <div
+      class="flex flex-col justify-center items-center w-full md:max-w-xl p-4 gap-4"
+    >
+      <h1 class="text-xl font-bold">Age Calculator</h1>
+      <form id="form" class="grid gap-2 w-full">
+        <label for="input_date">Enter your birth date:</label>
+        <input
+          class="border border-black rounded-lg p-1"
+          type="text"
+          id="input_date"
+          placeholder="Select a date"
+          required
+          readonly
+        />
+        <button id="button" class="bg-gray-400 rounded-lg p-1" type="submit">
+          Calculate
+        </button>
+      </form>
+      <h2 id="display"></h2>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

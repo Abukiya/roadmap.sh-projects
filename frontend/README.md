@@ -26,6 +26,7 @@ frontend/
 - [Cookie Consent](beginner/11-cookie-consent/)
 - [Restricted Textarea](beginner/12-restricted-textarea/)
 - [Accordion](beginner/13-accordion/)
+- [Age Calculator](beginner/14-age-calculator/)
 
 ### Intermediate
 *(Coming soon)*
