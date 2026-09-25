@@ -1,122 +1,44 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import Card from "./components/card";
+import { Buttons } from "./components/buttons";
+import flashcards from "./config/flashcards";
 
-function App() {
-  const [count, setCount] = useState(0)
+import { useState } from "react";
 
+export default function App() {
+  const [answer, setanswer] = useState(false);
+  const [id, setid] = useState(1);
+  const widthMap = {
+    1: "w-1/10",
+    2: "w-2/10",
+    3: "w-3/10",
+    4: "w-4/10",
+    5: "w-5/10",
+    6: "w-6/10",
+    7: "w-7/10",
+    8: "w-8/10",
+    9: "w-9/10",
+    10: "w-10/10",
+  };
+
+  const display = flashcards.filter((person) => person.id === id);
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
+    <div className="flex justify-center items-center h-screen flex-col p-15 gap-1">
+      <div className=" w-full md:max-w-xl p-1 border-2 rounded-lg flex justify-between relative">
+        <div
+          className={`bg-gray-200 flex justify-between rounded-lg p-3 ${widthMap[id]}`}
         >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+          <p>{id * 10}%</p>
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+        <p className="flex justify-center items-center p-1 absolute right-3 top-3">
+          {id} of 10
+        </p>
+      </div>
+      <div className="flex flex-col w-full border-2 justify-center items-center md:max-w-xl p-2 rounded-lg min-h-96">
+        {display.map((pal) => {
+          return <Card Card={pal} answer={answer} />;
+        })}
+        <Buttons answer={answer} setanswer={setanswer} id={id} setid={setid} />
+      </div>
+    </div>
+  );
 }
-
-export default App
