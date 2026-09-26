@@ -29,6 +29,7 @@ frontend/
 - [Age Calculator](beginner/14-age-calculator/)
 - [Flash Cards](beginner/15-flash-cards/)
 - [Pricing Comparison Table](beginner/16-pricing-comparison-table/)
+- [Blog Post Page](beginner/17-blog-post-page/)
 
 ### Intermediate
 *(Coming soon)*
