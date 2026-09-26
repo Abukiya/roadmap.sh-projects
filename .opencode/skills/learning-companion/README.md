@@ -116,5 +116,6 @@ The companion is paired with the repository's documentation automation skill:
 ## Related Files
 
 - [SKILL.md](SKILL.md) — The system prompt and behavioral instructions executed by the AI.
-- [write-readme SKILL.md](../write-readme/SKILL.md) — The automated documentation skill.
+- [write-readme README](../write-readme/README.md) — Pipeline, conventions, and usage for the automated documentation skill.
+- [write-readme SKILL.md](../write-readme/SKILL.md) — The skill's execution instructions.
 - [Skills Catalog](../README.md) — Index of all workspace skills.
