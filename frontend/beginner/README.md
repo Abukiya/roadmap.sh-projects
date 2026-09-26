@@ -20,6 +20,7 @@ Beginner-level frontend projects from [roadmap.sh](https://roadmap.sh/projects).
 | 13 | [Accordion](13-accordion/) | A FAQ accordion component |
 | 14 | [Age Calculator](14-age-calculator/) | A birth date age calculator |
 | 15 | [Flash Cards](15-flash-cards/) | A JavaScript interview flashcard app |
+| 16 | [Pricing Comparison Table](16-pricing-comparison-table/) | A plan comparison table |
 
 ## Tech Stack
 

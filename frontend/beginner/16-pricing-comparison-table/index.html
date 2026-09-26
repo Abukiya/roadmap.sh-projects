@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing-comparsion-table</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex justify-center h-screen items-center flex-col">
+    <div class="w-full md:max-w-2xl grid">
+      <div class="w-full grid gap-2 p-2">
+        <h1 class="text-2xl">Acme Plans</h1>
+        <nav class="flex gap-4">
+          <button class="hover:underline">Home</button>
+          <button class="hover:underline">About</button>
+          <button class="hover:underline">Contact</button>
+        </nav>
+      </div>
+      <div>
+        <table class="border-2 w-full">
+          <caption class="text-start text-xl pl-2 mb-2">
+            plan comparsion
+          </caption>
+          <tr class="border-2">
+            <th class="border-2 p-2">Plan</th>
+            <th class="border-2 p-2">Storage</th>
+            <th class="border-2 p-2">Projects</th>
+            <th class="border-2 p-2">Support</th>
+          </tr>
+          <tr>
+            <td class="border-2 p-2 text-center">Free</td>
+            <td class="border-2 p-2 text-center">5 GB</td>
+            <td class="border-2 p-2 text-center">3</td>
+            <td class="border-2 p-2 text-center">Email</td>
+          </tr>
+          <tr>
+            <td class="border-2 p-2 text-center">Pro</td>
+            <td class="border-2 p-2 text-center">100 GB</td>
+            <td class="border-2 p-2 text-center">25</td>
+            <td class="border-2 p-2 text-center">Priority Email</td>
+          </tr>
+          <tr>
+            <td class="border-2 p-2 text-center">Business</td>
+            <td class="border-2 p-2 text-center">1 TB</td>
+            <td class="border-2 p-2 text-center">Unlimited</td>
+            <td class="border-2 p-2 text-center">24/7 Phone</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="text-center p-2">
+              All plans include SSL and daily backups
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

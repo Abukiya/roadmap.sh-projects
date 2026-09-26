@@ -28,6 +28,7 @@ frontend/
 - [Accordion](beginner/13-accordion/)
 - [Age Calculator](beginner/14-age-calculator/)
 - [Flash Cards](beginner/15-flash-cards/)
+- [Pricing Comparison Table](beginner/16-pricing-comparison-table/)
 
 ### Intermediate
 *(Coming soon)*
