@@ -27,6 +27,7 @@ frontend/
 - [Restricted Textarea](beginner/12-restricted-textarea/)
 - [Accordion](beginner/13-accordion/)
 - [Age Calculator](beginner/14-age-calculator/)
+- [Flash Cards](beginner/15-flash-cards/)
 
 ### Intermediate
 *(Coming soon)*
