@@ -31,6 +31,7 @@ frontend/
 - [Pricing Comparison Table](beginner/16-pricing-comparison-table/)
 - [Blog Post Page](beginner/17-blog-post-page/)
 - [Contact Form](beginner/18-contact-form/)
+- [Photo Showcase](beginner/19-photo-showcase/)
 
 ### Intermediate
 *(Coming soon)*

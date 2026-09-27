@@ -23,6 +23,7 @@ Beginner-level frontend projects from [roadmap.sh](https://roadmap.sh/projects).
 | 16 | [Pricing Comparison Table](16-pricing-comparison-table/) | A plan comparison table |
 | 17 | [Blog Post Page](17-blog-post-page/) | A semantic HTML blog post layout |
 | 18 | [Contact Form](18-contact-form/) | A support contact form with validation |
+| 19 | [Photo Showcase](19-photo-showcase/) | An image gallery with a poster-image video |
 
 ## Tech Stack
 
