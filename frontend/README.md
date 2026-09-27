@@ -30,6 +30,7 @@ frontend/
 - [Flash Cards](beginner/15-flash-cards/)
 - [Pricing Comparison Table](beginner/16-pricing-comparison-table/)
 - [Blog Post Page](beginner/17-blog-post-page/)
+- [Contact Form](beginner/18-contact-form/)
 
 ### Intermediate
 *(Coming soon)*
