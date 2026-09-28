@@ -32,6 +32,7 @@ frontend/
 - [Blog Post Page](beginner/17-blog-post-page/)
 - [Contact Form](beginner/18-contact-form/)
 - [Photo Showcase](beginner/19-photo-showcase/)
+- [Pricing Cards](beginner/20-pricing-cards/)
 
 ### Intermediate
 *(Coming soon)*
