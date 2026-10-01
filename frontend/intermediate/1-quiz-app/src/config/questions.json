@@ -1,0 +1,97 @@
+{
+  "title": "JavaScript Quiz",
+  "description": "Test your knowledge of JavaScript fundamentals.",
+  "timePerQuestion": 60,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does `typeof null` return in JavaScript?",
+      "options": ["object", "null", "undefined", "number"],
+      "correctAnswer": 0,
+      "explanation": "`typeof null` returns \"object\". This is a long-standing quirk of the language."
+    },
+    {
+      "id": 2,
+      "question": "Which keyword declares a block-scoped variable that cannot be reassigned?",
+      "options": ["var", "let", "const", "static"],
+      "correctAnswer": 2,
+      "explanation": "`const` creates a block-scoped binding that cannot be reassigned."
+    },
+    {
+      "id": 3,
+      "question": "What does `\"3\" + 2` evaluate to?",
+      "options": ["5", "\"32\"", "NaN", "TypeError"],
+      "correctAnswer": 1,
+      "explanation": "With the + operator, if one operand is a string the other is converted to a string, so the result is \"32\"."
+    },
+    {
+      "id": 4,
+      "question": "What does `Array.prototype.map()` return?",
+      "options": [
+        "The original array, modified",
+        "A new array",
+        "A single value",
+        "undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "`map()` returns a new array with the results of calling the callback on every element."
+    },
+    {
+      "id": 5,
+      "question": "What is the difference between `==` and `===`?",
+      "options": [
+        "There is no difference",
+        "`===` compares only values, `==` compares value and type",
+        "`==` allows type coercion, `===` compares value and type strictly",
+        "`===` is only used for strings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "`==` performs type coercion before comparing, while `===` requires both value and type to match."
+    },
+    {
+      "id": 6,
+      "question": "Which method adds an element to the end of an array?",
+      "options": ["push()", "pop()", "shift()", "unshift()"],
+      "correctAnswer": 0,
+      "explanation": "`push()` appends one or more elements to the end of an array."
+    },
+    {
+      "id": 7,
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A function that has no parameters",
+        "A function bundled with access to its surrounding lexical scope",
+        "A way to close a browser window",
+        "A method that ends a loop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A closure lets a function remember and access variables from the scope where it was created."
+    },
+    {
+      "id": 8,
+      "question": "What does the `await` keyword do?",
+      "options": [
+        "Blocks the entire program until a promise resolves",
+        "Pauses the async function until the promise settles",
+        "Creates a new promise",
+        "Cancels a pending promise"
+      ],
+      "correctAnswer": 1,
+      "explanation": "`await` pauses execution of the async function until the promise settles, without blocking the main thread."
+    },
+    {
+      "id": 9,
+      "question": "What does `NaN === NaN` evaluate to?",
+      "options": ["true", "false", "undefined", "TypeError"],
+      "correctAnswer": 1,
+      "explanation": "NaN is the only value in JavaScript that is not equal to itself. Use `Number.isNaN()` to check for it."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is NOT a primitive type in JavaScript?",
+      "options": ["string", "number", "array", "boolean"],
+      "correctAnswer": 2,
+      "explanation": "Arrays are objects. The primitive types are string, number, bigint, boolean, undefined, null and symbol."
+    }
+  ]
+}
