@@ -1,16 +1,53 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A JavaScript quiz app built with React Router - start screen, question flow, and a results screen that receives the score through router state. A solution for **Intermediate Project #1 (Quiz App)** from [roadmap.sh](https://roadmap.sh/projects/quiz-app).
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Desktop
 
-## React Compiler
+![Desktop](screenshot.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Questions
 
-## Expanding the ESLint configuration
+![Questions](screenshot-question.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## About
+
+The app has three routes wrapped in a shared layout:
+
+- `/` - start screen with the quiz intro and a link to the first question
+- `/question` - one question at a time with score tracking, answer feedback, and an explanation toggle
+- `/result` - final score, retry, and home buttons
+
+When the last question is answered, the score is passed to the result route with `navigate("/result", { state: ... })`. The result screen reads it back with `useLocation().state` and shows a friendly message when someone opens the route directly without taking the quiz.
+
+Routes are wrapped in an `ErrorBoundary` so a crash in the question or result screen renders an error page with a reset option instead of taking down the whole app.
+
+## Tech Stack
+
+- **React 19** - UI library
+- **Vite 8** - build tool and dev server
+- **React Router 8** - routing, `useNavigate`, `useLocation`
+- **Tailwind CSS v4** - utility-first styling via `@tailwindcss/vite`
+- **ESLint** - linting
+
+## What I Learned
+
+- **Error boundaries** - wrote a class component with `getDerivedStateFromError` and `componentDidCatch`, learned that only class components can catch render errors, and built a custom `fallback` prop plus a reset function so the app can recover instead of staying crashed.
+- **`useNavigate`** - imperative navigation for the "Next Question", "See Results", "Retry Quiz", and "Go to Home" buttons, including passing data to the next route with `navigate(path, { state })`.
+- **`useLocation`** - reading the `state` object sent by `navigate` on the results screen, and handling the case where `state` is `undefined` because the URL was opened directly.
+- **State** - `useState` for the current question index, the running score, and the selected answer, plus deriving the next view from state instead of mutating the DOM.
+
+## How to Run
+
+```bash
+npm install
+npm run dev      # start dev server
+npm run build    # production build
+npm run preview  # serve the build
+```
+
+## Author
+
+Abukiya - 2026

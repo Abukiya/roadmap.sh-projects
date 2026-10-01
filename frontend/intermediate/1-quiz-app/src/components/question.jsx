@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import quiz from "../config/questions.json";
 import { useNavigate } from "react-router";
 

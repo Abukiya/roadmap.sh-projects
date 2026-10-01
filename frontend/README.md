@@ -35,7 +35,7 @@ frontend/
 - [Pricing Cards](beginner/20-pricing-cards/)
 
 ### Intermediate
-*(Coming soon)*
+- [Quiz App](intermediate/1-quiz-app/)
 
 ### Advanced
 *(Coming soon)*
