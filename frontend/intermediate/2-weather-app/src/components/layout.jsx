@@ -5,7 +5,7 @@ export function Layout() {
   return (
     <div className="  flex flex-col h-dvh font-mono bg-neutral-100">
       <Header />
-      <main className="flex justify-center items-center min-h-0 flex-1 overflow-y-auto p-4">
+      <main className="flex justify-center min-h-0 flex-1 overflow-y-auto">
         <Outlet />
       </main>
       <Footer />
