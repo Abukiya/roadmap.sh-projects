@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router";
 import { Layout } from "../components/layout";
 import { Homepage } from "../features/homepage/homepage";
-import { Prevnext } from "../features/prev-n-next/prev-n-next";
+import HourlyPage from "../features/prev-n-next/Hourlypage";
 import { ErrorBoundary } from "../components/error-boundary";
 export function Approuter() {
   return (
@@ -9,10 +9,10 @@ export function Approuter() {
       <Route element={<Layout />}>
         <Route path="/" element={<Homepage />} />
         <Route
-          path="/prevnext"
+          path="/hours/:range"
           element={
             <ErrorBoundary>
-              <Prevnext />
+              <HourlyPage />
             </ErrorBoundary>
           }
         />
