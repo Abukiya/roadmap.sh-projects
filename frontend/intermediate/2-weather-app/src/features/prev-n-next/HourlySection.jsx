@@ -1,3 +1,4 @@
+import TemperatureTrend from "./tempraturetrend";
 const HOUR = 60 * 60 * 1000;
 
 const formatHour = (timestamp) =>
@@ -15,11 +16,12 @@ export default function HourlySection({ title, hours }) {
   const end = start + 24 * HOUR;
 
   return (
-    <section className="w-full lg:w-5xl flex flex-col gap-4">
+    <section className="w-full lg:w-5xl flex flex-col gap-8">
       <h2 className="text-3xl font-bold text-slate-900">{title}</h2>
       <p className="mt-1 text-sm text-slate-500">
         {formatHour(start)} → {formatHour(end)}
       </p>
+      <TemperatureTrend hours={hours}/>
       <div className="flex gap-3 overflow-x-auto">
         {hours.map((h) => (
           <div
