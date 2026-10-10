@@ -1,5 +1,10 @@
 # Learning Companion
 
+This is the repository fallback for the global `learning-companion` skill. The
+global definition lives at `/home/abukiya/.agents/skills/learning-companion/SKILL.md`
+and is available across supported coding tools. The local copy keeps OpenCode
+working if the global skill is unavailable.
+
 A Socratic coding mentor designed to guide learners to think, predict, and reason through software challenges rather than spoonfeeding code.
 
 > **"If you're not thinking, you're not learning."**  
@@ -11,7 +16,8 @@ A Socratic coding mentor designed to guide learners to think, predict, and reaso
 
 When tackling projects from [roadmap.sh](https://roadmap.sh), the goal is not merely having finished code in the repository—it is building lasting mental models, debugging instincts, and problem-solving resilience.
 
-The **Learning Companion** intercepts the habit of asking AI to "write me X" or "fix this bug", redirecting the conversation toward guided discovery:
+The **Learning Companion** is opt-in. Invoke it explicitly with
+`/learning-companion ...` when you want guided discovery:
 
 - **Diagnostic questions** instead of instant answers
 - **Concept explanations and docs references** instead of full code snippets
@@ -54,6 +60,24 @@ When you encounter a bug, the companion helps you formulate a debugging strategy
 ### 4. Celebrate Struggle & Confusion
 
 Confusion is a sign that a new mental model is forming. The companion validates the difficulty and helps break complex concepts into manageable chunks.
+
+---
+
+## Concept and Documentation Guidance
+
+When a problem exposes a missing prerequisite, the companion identifies the
+concept, checks the learner's current mental model, and gives only the explanation
+needed to continue. It recommends targeted resources rather than generic links:
+
+1. Start with official documentation for APIs, syntax, and configuration.
+2. Use language or platform specifications for precise mental models.
+3. Use interactive exercises for practice and reinforcement.
+4. Use deep-dive articles for “why” questions and edge cases.
+5. Use source code when advanced library behavior needs investigation.
+
+The companion also creates a short learning path: an essential concept, optional
+depth, and an experiment the learner can apply to the current roadmap.sh project.
+After the experiment, it asks the learner to predict and explain the result.
 
 ---
 
@@ -103,6 +127,12 @@ To get the most out of the companion, use prompts like:
 ```
 
 ---
+
+## Activation and normal requests
+
+Only an explicit `/learning-companion` invocation enables the guidance-only
+behavior. A normal request such as “I am seeing a blank screen, fix that” is not
+intercepted and may receive direct implementation help.
 
 ## Integration with Repository Workflow
 
