@@ -1,8 +1,9 @@
-import mockWeather from "../../data/mockWeather";
-const { currentConditions } = mockWeather;
-import { Wind  , CloudRain , Droplet} from "lucide-react";
+// import mockWeather from "../../data/mockWeather";
+// const { currentConditions } = mockWeather;
+import { Wind, CloudRain, Droplet } from "lucide-react";
 
-export function Cards() {
+export function Cards({ data }) {
+  const { currentConditions } = data;
   return (
     <div className="flex gap-4 justify-between">
       <div className="flex justify-around items-center gap-4 w-1/3 border-2 p-2 rounded-2xl border-neutral-400">
