@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router";
+import { Navigate, Routes, Route } from "react-router";
 import { Layout } from "../components/layout";
 import { Homepage } from "../features/homepage/homepage";
 import HourlyPage from "../features/prev-n-next/Hourlypage";
@@ -9,13 +9,14 @@ export function Approuter() {
       <Route element={<Layout />}>
         <Route path="/" element={<Homepage />} />
         <Route
-          path="/hours/:range"
+          path="/hours/:city/:range"
           element={
             <ErrorBoundary>
               <HourlyPage />
             </ErrorBoundary>
           }
         />
+        <Route path="/hours/:range" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
   );

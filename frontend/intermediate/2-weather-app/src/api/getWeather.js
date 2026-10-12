@@ -15,9 +15,9 @@ export async function fetchWeather(city, signal) {
   const params = new URLSearchParams({
     key: import.meta.env.VITE_WEATHER_KEY,
     unitGroup: "metric",
-    include: "current",
+    include: "current,hours",
   });
-  const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(city)}/${dtStart}/${dtEnd}?${params}&include=hours`;
+  const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(city)}/${dtStart}/${dtEnd}?${params}`;
 
   const response = await fetch(url , { signal});
 
