@@ -23,7 +23,7 @@ export async function fetchWeather(city, signal) {
 
   if (!response.ok) {
     const message = await response.text();
-    const error = new Error(message || `HTTP error: ${response.status}`);
+    const error = new Error(message);
     error.status = response.status;
     throw error;
   }
