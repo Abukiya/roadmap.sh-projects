@@ -35,7 +35,7 @@ export function Homepage() {
   }
 
   return (
-    <div className="w-full lg:w-5xl flex flex-col gap-8">
+    <div className="w-full lg:w-5xl flex flex-col gap-8 p-4">
       <Search_input onSearch={api_handler} />
       {!isloading && !error && !weather && <Welcomecomponent/>}
       {isloading && <HomepageSkeleton />}

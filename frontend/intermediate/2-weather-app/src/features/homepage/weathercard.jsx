@@ -15,7 +15,7 @@ export function WeatherCard({ data }) {
   const { resolvedAddress, currentConditions } = data;
   const Icon = iconMap[currentConditions?.icon] || Cloud;
   return (
-    <div className="w-full lg:w-5xl bg-blue-400 p-4 rounded-2xl text-white">
+    <div className="w-full bg-blue-400 p-4 rounded-2xl text-white">
       <div className="flex justify-between">
         <div>
           <h1>{resolvedAddress}</h1>

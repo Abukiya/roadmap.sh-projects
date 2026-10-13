@@ -32,7 +32,7 @@ export default function HourlyPageSkeleton() {
       </div>
 
       <div className="flex gap-3 overflow-hidden pb-2">
-        {Array.from({ length: 9 }, (_, index) => (
+        {Array.from({ length: 12 }, (_, index) => (
           <HourCardSkeleton key={index} />
         ))}
       </div>

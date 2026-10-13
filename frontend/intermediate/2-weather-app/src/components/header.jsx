@@ -10,10 +10,6 @@ export function Header() {
         </div>
       </div>
       <div className="flex items-center gap-2 p-2 ">
-        <div className="flex gap-2">
-          <button className="p-2">C</button>
-          <button className="p-2">F</button>
-        </div>
       </div>
     </header>
   );
