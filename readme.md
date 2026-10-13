@@ -99,9 +99,10 @@ Click any image to go to the project directory.
 #### Intermediate
 
 <!--[Quiz App](https://roadmap.sh/projects/quiz-app)-->
+<!--[Weather App](https://roadmap.sh/projects/weather-app)-->
 
 Click any image to go to the project directory.
 
 |                                                                                                                   |                                                                                                                   |                                                                                                                   |
 | :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
-| [![Quiz App](frontend/intermediate/1-quiz-app/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/intermediate/1-quiz-app)<br>Quiz App |                                                                                                                   |                                                                                                                   |
+| [![Quiz App](frontend/intermediate/1-quiz-app/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/intermediate/1-quiz-app)<br>Quiz App | [![Weather App](frontend/intermediate/2-weather-app/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/intermediate/2-weather-app)<br>Weather App |                                                                                                                   |

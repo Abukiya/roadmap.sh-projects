@@ -36,6 +36,7 @@ frontend/
 
 ### Intermediate
 - [Quiz App](intermediate/1-quiz-app/)
+- [Weather App](intermediate/2-weather-app/)
 
 ### Advanced
 *(Coming soon)*
