@@ -1,0 +1,147 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/archivo";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+@import "@fontsource/ibm-plex-mono/600.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: "Archivo Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Signage palette — enamel white, screen-print ink, chrome yellow */
+  --color-ink: #14140f;
+  --color-ink-soft: #4a473e;
+  --color-steel: #6e6b63;
+  --color-hairline: #e5e1d6;
+  --color-panel: #f3f3f1;
+  --color-signal: #ffc400;
+  --color-alert: #c8452b;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #14140f;
+  --card: #ffffff;
+  --card-foreground: #14140f;
+  --popover: #ffffff;
+  --popover-foreground: #14140f;
+  --primary: #14140f;
+  --primary-foreground: #ffffff;
+  --secondary: #f3f3f1;
+  --secondary-foreground: #14140f;
+  --muted: #f3f3f1;
+  --muted-foreground: #6e6b63;
+  --accent: #f3f3f1;
+  --accent-foreground: #14140f;
+  --destructive: #c8452b;
+  --border: #e5e1d6;
+  --input: #e5e1d6;
+  --ring: #14140f;
+  --chart-1: #ffc400;
+  --chart-2: #6e6b63;
+  --chart-3: #4a473e;
+  --chart-4: #c8452b;
+  --chart-5: #14140f;
+  --radius: 0.25rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #14140f;
+  --sidebar-primary: #14140f;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f3f3f1;
+  --sidebar-accent-foreground: #14140f;
+  --sidebar-border: #e5e1d6;
+  --sidebar-ring: #14140f;
+}
+
+/*
+ * The design is a light-mode signage system: every surface carries its own
+ * explicit ink/white values, so the theme toggle can never break contrast.
+ */
+.dark {
+  --background: #ffffff;
+  --foreground: #14140f;
+  --card: #ffffff;
+  --card-foreground: #14140f;
+  --popover: #ffffff;
+  --popover-foreground: #14140f;
+  --primary: #14140f;
+  --primary-foreground: #ffffff;
+  --secondary: #f3f3f1;
+  --secondary-foreground: #14140f;
+  --muted: #f3f3f1;
+  --muted-foreground: #6e6b63;
+  --accent: #f3f3f1;
+  --accent-foreground: #14140f;
+  --destructive: #c8452b;
+  --border: #e5e1d6;
+  --input: #e5e1d6;
+  --ring: #14140f;
+  --chart-1: #ffc400;
+  --chart-2: #6e6b63;
+  --chart-3: #4a473e;
+  --chart-4: #c8452b;
+  --chart-5: #14140f;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #14140f;
+  --sidebar-primary: #14140f;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f3f3f1;
+  --sidebar-accent-foreground: #14140f;
+  --sidebar-border: #e5e1d6;
+  --sidebar-ring: #14140f;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
