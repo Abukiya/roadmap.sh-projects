@@ -37,6 +37,7 @@ frontend/
 ### Intermediate
 - [Quiz App](intermediate/1-quiz-app/)
 - [Weather App](intermediate/2-weather-app/)
+- [GitHub Random Repo](intermediate/3-github-random-repo/)
 
 ### Advanced
 *(Coming soon)*
