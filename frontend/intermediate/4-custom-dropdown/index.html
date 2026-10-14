@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Changelog Component</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body class="flex justify-center flex-col items-center h-screen gap-4">
+    <h1 class="text-xl font-bold">Custom Dropdown</h1>
+    <div class="flex flex-col gap-2 w-80">
+      <div class="relative" id="btn">
+        <button class="border-2 py-2 rounded-xl px-1 text-start w-full" id="inner-btn">
+          Check
+        </button>
+        <i
+          id="icon"
+          class="absolute top-0 right-0 p-2 h-full m-1 fa-solid fa-chevron-down"
+        ></i>
+      </div>
+      <div id="options" class="border-2 rounded-xl flex flex-col gap-2 hidden">
+        <div class="relative group cursor-pointer option">
+          <p class="border-b-2 p-2 option-text">javascript</p>
+          <h1
+            class="absolute right-0 top-0 p-2 hidden group-hover:flex h-full items-center"
+          >
+            <i class="fa-solid fa-circle-check"></i>
+          </h1>
+        </div>
+        <div class="relative group cursor-pointer option">
+          <p class="border-b-2 p-2 option-text">python</p>
+          <h1
+            class="absolute right-0 top-0 p-2 hidden group-hover:flex h-full items-center"
+          >
+            <i class="fa-solid fa-circle-check"></i>
+          </h1>
+        </div>
+        <div class="relative group cursor-pointer option">
+          <p class="border-b-2 p-2 option-text">ruby</p>
+          <h1
+            class="absolute right-0 top-0 p-2 hidden group-hover:flex h-full items-center"
+          >
+            <i class="fa-solid fa-circle-check"></i>
+          </h1>
+        </div>
+        <div class="relative group cursor-pointer option">
+          <p class="p-2 option-text">Rust</p>
+          <h1
+            class="absolute right-0 top-0 p-2 hidden group-hover:flex h-full items-center"
+          >
+            <i class="fa-solid fa-circle-check"></i>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
