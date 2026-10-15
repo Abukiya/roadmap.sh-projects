@@ -1,86 +1,13 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Changelog Component</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="./script.js" defer></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
+    <title>5-task-tracker-js</title>
   </head>
   <body>
-    <main class="flex flex-col items-center h-screen">
-      <div class="w-full sm:max-w-xl mt-20">
-        <header class="text-start p-2 text-2xl w-full">Task Tracker</header>
-        <div class="flex gap-2 flex-col">
-          <div class="border-2 flex justify-between">
-            <input
-              type="text"
-              class="outline-none w-full p-2"
-              placeholder="Start writing and press enter to create a task"
-            />
-            <button class="p-2 hover:scale-110">
-              <i class="fa-solid fa-right-to-bracket"></i>
-            </button>
-          </div>
-          <div class="flex flex-col gap-2">
-            <div class="flex justify-between border-b-1 border-gray-300 pb-1">
-              <div class="flex gap-2 w-full group">
-                <div class="border-2 size-7 rounded-lg">
-                  <div
-                    class="flex justify-center items-center h-full hidden group-hover:flex"
-                  >
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                </div>
-                <div class="self-center w-full">
-                  <p>New task is created and added to the list</p>
-                </div>
-              </div>
-              <button class="hover:scale-110">
-                <i class="fa-solid fa-trash-can self-center"></i>
-              </button>
-            </div>
-            <div class="flex justify-between border-b-1 border-gray-300 pb-1">
-              <div class="flex gap-2 w-full group">
-                <div class="border-2 size-7 rounded-lg">
-                  <div
-                    class="flex justify-center items-center h-full hidden group-hover:flex"
-                  >
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                </div>
-                <div class="self-center w-full">
-                  <p>New task is created and added to the list</p>
-                </div>
-              </div>
-              <button class="hover:scale-110">
-                <i class="fa-solid fa-trash-can self-center"></i>
-              </button>
-            </div>
-            <div class="flex justify-between border-b-1 border-gray-300 pb-1">
-              <div class="flex gap-2 w-full group">
-                <div class="border-2 size-7 rounded-lg">
-                  <div
-                    class="flex justify-center items-center h-full hidden group-hover:flex"
-                  >
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                </div>
-                <div class="self-center w-full">
-                  <p>New task is created and added to the list</p>
-                </div>
-              </div>
-              <button class="hover:scale-110">
-                <i class="fa-solid fa-trash-can self-center"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
