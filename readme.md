@@ -102,10 +102,11 @@ Click any image to go to the project directory.
 <!--[Weather App](https://roadmap.sh/projects/weather-app)-->
 <!--[GitHub Random Repo](https://roadmap.sh/projects/github-random-repo)-->
 <!--[Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)-->
+<!--[Task Tracker](https://roadmap.sh/projects/task-tracker-js)-->
 
 Click any image to go to the project directory.
 
 |                                                                                                                   |                                                                                                                   |                                                                                                                   |
 | :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
 | [![Quiz App](frontend/intermediate/1-quiz-app/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/intermediate/1-quiz-app)<br>Quiz App | [![Weather App](frontend/intermediate/2-weather-app/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/intermediate/2-weather-app)<br>Weather App | [![GitHub Random Repo](frontend/intermediate/3-github-random-repo/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/intermediate/3-github-random-repo)<br>GitHub Random Repo |
-| [![Custom Dropdown](frontend/intermediate/4-custom-dropdown/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/intermediate/4-custom-dropdown)<br>Custom Dropdown |
+| [![Custom Dropdown](frontend/intermediate/4-custom-dropdown/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/intermediate/4-custom-dropdown)<br>Custom Dropdown | [![Task Tracker](frontend/intermediate/5-task-tracker-js/screenshot.png)](https://github.com/Abukiya/roadmap.sh_projects/tree/main/frontend/intermediate/5-task-tracker-js)<br>Task Tracker |

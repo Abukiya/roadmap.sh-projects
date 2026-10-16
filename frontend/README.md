@@ -39,6 +39,7 @@ frontend/
 - [Weather App](intermediate/2-weather-app/)
 - [GitHub Random Repo](intermediate/3-github-random-repo/)
 - [Custom Dropdown](intermediate/4-custom-dropdown/)
+- [Task Tracker](intermediate/5-task-tracker-js/)
 
 ### Advanced
 *(Coming soon)*
