@@ -1,33 +1,18 @@
-import { Plus } from "lucide-react";
-export function Header() {
+import { Link } from 'react-router';
+import { APP_NAME } from '../config/app-config';
+
+export function Header({ actions }) {
   return (
-    <header className="h-24 flex justify-around">
-      <div className="flex gap-2 self-center">
+    <header className="flex min-h-16 shrink-0 flex-wrap items-center gap-3 border-b border-neutral-300 bg-white px-4 py-2">
+      <Link to="/" className="flex shrink-0 items-center gap-2">
         <img
-          src="public/favicon/apple-touch-icon.png"
-          className="size-10 rounded-full"
+          src="/favicon/apple-touch-icon.png"
+          className="size-8 rounded-full"
           alt=""
         />
-        <h1 className=" self-center text-xl">DeckReddit</h1>
-      </div>
-      <div className="self-center">
-        <form className="flex gap-2">
-          <input
-            className="bg-gray-200 p-1"
-            type="search"
-            name=""
-            id="subreddit"
-            placeholder="Add subreddit (e.g. webdev, reactjs..)"
-          />
-
-          <div>
-            <button type="submit" className="flex gap-1 border-2 p-1">
-              <Plus />
-              <p>Add Lane</p>
-            </button>
-          </div>
-        </form>
-      </div>
+        <span className="text-lg font-bold">{APP_NAME}</span>
+      </Link>
+      {actions && <div className="min-w-0 flex-1 sm:max-w-2xl">{actions}</div>}
     </header>
   );
 }
