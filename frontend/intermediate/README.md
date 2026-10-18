@@ -11,6 +11,7 @@ Intermediate-level frontend projects from [roadmap.sh](https://roadmap.sh/projec
 | 3 | [GitHub Random Repo](3-github-random-repo/) | A random repository dispenser powered by the GitHub Search API |
 | 4 | [Custom Dropdown](4-custom-dropdown/) | A framework-free dropdown select with a CSS-only hover checkmark |
 | 5 | [Task Tracker](5-task-tracker-js/) | A React to-do list built on immutable array operations |
+| 6 | [Reddit Client](6-reddit-client/) | A multi-lane Reddit dashboard running on a mock API |
 
 ## Tech Stack
 

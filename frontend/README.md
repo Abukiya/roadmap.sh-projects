@@ -40,6 +40,7 @@ frontend/
 - [GitHub Random Repo](intermediate/3-github-random-repo/)
 - [Custom Dropdown](intermediate/4-custom-dropdown/)
 - [Task Tracker](intermediate/5-task-tracker-js/)
+- [Reddit Client](intermediate/6-reddit-client/)
 
 ### Advanced
 *(Coming soon)*
