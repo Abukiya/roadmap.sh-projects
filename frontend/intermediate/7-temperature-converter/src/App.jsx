@@ -45,7 +45,6 @@ export default function App() {
         <p className="mt-3 text-base">
           Enter the temperature, select units and submit
         </p>
-
         <div className="mt-6 flex flex-wrap items-center gap-4">
           <input
             type="number"
