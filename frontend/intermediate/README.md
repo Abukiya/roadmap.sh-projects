@@ -12,6 +12,7 @@ Intermediate-level frontend projects from [roadmap.sh](https://roadmap.sh/projec
 | 4 | [Custom Dropdown](4-custom-dropdown/) | A framework-free dropdown select with a CSS-only hover checkmark |
 | 5 | [Task Tracker](5-task-tracker-js/) | A React to-do list built on immutable array operations |
 | 6 | [Reddit Client](6-reddit-client/) | A multi-lane Reddit dashboard running on a mock API |
+| 7 | [Temperature Converter](7-temperature-converter/) | A Celsius/Fahrenheit/Kelvin converter built around a React form with `onSubmit` |
 
 ## Tech Stack
 

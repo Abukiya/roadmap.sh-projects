@@ -41,6 +41,7 @@ frontend/
 - [Custom Dropdown](intermediate/4-custom-dropdown/)
 - [Task Tracker](intermediate/5-task-tracker-js/)
 - [Reddit Client](intermediate/6-reddit-client/)
+- [Temperature Converter](intermediate/7-temperature-converter/)
 
 ### Advanced
 *(Coming soon)*
