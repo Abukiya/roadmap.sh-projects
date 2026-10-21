@@ -59,7 +59,7 @@ function Setting({
             />
           </div>
           <div className="flex flex-col gap-1 p-2 w-1/3 ">
-            <label htmlfor="shortbreak" className="text-gray-500">
+            <label htmlFor="shortbreak" className="text-gray-500">
               Short Break:
             </label>
             <input

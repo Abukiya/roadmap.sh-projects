@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-function useCountdown(totalSeconds, onComplete) {
+export default function useCountdown(totalSeconds, onComplete) {
   const [secondsLeft, setSecondsLeft] = useState(totalSeconds);
   const [isRunning, setIsRunning] = useState(false);
   const endTimeRef = useRef(null);
@@ -35,5 +35,11 @@ function useCountdown(totalSeconds, onComplete) {
     setSecondsLeft(totalSeconds);
   };
 
-  return { secondsLeft, isRunning, start, pause, reset };
+  const setTime = (number) => {
+    const seconds = number * 60;
+    setIsRunning(false);
+    setSecondsLeft(seconds);
+  };
+
+  return { secondsLeft, isRunning, start, pause, reset, setTime };
 }
