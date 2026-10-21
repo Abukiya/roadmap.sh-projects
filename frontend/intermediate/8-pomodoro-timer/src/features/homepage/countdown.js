@@ -35,11 +35,6 @@ export default function useCountdown(totalSeconds, onComplete) {
     setSecondsLeft(totalSeconds);
   };
 
-  const setTime = (number) => {
-    const seconds = number * 60;
-    setIsRunning(false);
-    setSecondsLeft(seconds);
-  };
 
-  return { secondsLeft, isRunning, start, pause, reset, setTime };
+  return { secondsLeft, isRunning, start, pause, reset };
 }
