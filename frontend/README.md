@@ -42,6 +42,7 @@ frontend/
 - [Task Tracker](intermediate/5-task-tracker-js/)
 - [Reddit Client](intermediate/6-reddit-client/)
 - [Temperature Converter](intermediate/7-temperature-converter/)
+- [Pomodoro Timer](intermediate/8-pomodoro-timer/)
 
 ### Advanced
 *(Coming soon)*
