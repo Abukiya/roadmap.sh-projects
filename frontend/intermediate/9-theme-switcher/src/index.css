@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f1f5f9;
+  --color-text: #0f172a;
+  --color-accent: #2563eb;
+  --radius-md: 0.75rem;
+}
+
+:root:has(#theme-dark:checked) {
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-text: #f8fafc;
+  --color-accent: #38bdf8;
+  --radius-md: 0.75rem;
+}
+
+:root:has(#theme-sunset:checked) {
+  --color-bg: #fff7ed;
+  --color-surface: #ffedd5;
+  --color-text: #431407;
+  --color-accent: #ea580c;
+  --radius-md: 1.5rem;
+}
