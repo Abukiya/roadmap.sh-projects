@@ -1,4 +1,4 @@
-# Same Markup, Different Theme
+# Theme Switcher
 
 A theme switcher that repaints one preview card three different ways without
 touching its markup. A solution for **Intermediate Project #9 (Same markup,

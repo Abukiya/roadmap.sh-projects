@@ -14,7 +14,7 @@ Intermediate-level frontend projects from [roadmap.sh](https://roadmap.sh/projec
 | 6 | [Reddit Client](6-reddit-client/) | A multi-lane Reddit dashboard running on a mock API |
 | 7 | [Temperature Converter](7-temperature-converter/) | A Celsius/Fahrenheit/Kelvin converter built around a React form with `onSubmit` |
 | 8 | [Pomodoro Timer](8-pomodoro-timer/) | A three-mode pomodoro timer with a settings page, remounted by `key` on mode switch |
-| 9 | [Same markup, different theme](9-theme-switcher/) | A CSS-only theme switcher that swaps design tokens via `:has()` on checked radios |
+| 9 | [Theme Switcher](9-theme-switcher/) | A CSS-only theme switcher that swaps design tokens via `:has()` on checked radios |
 
 ## Tech Stack
 
