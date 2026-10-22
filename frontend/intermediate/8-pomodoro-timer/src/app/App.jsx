@@ -3,7 +3,7 @@ import { Approuter } from "./router";
 import { ErrorBoundary } from "../compnents/error-boundary";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/roadmap.sh-projects">
       <ErrorBoundary>
         <Approuter />
       </ErrorBoundary>
