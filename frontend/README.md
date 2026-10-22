@@ -43,6 +43,7 @@ frontend/
 - [Reddit Client](intermediate/6-reddit-client/)
 - [Temperature Converter](intermediate/7-temperature-converter/)
 - [Pomodoro Timer](intermediate/8-pomodoro-timer/)
+- [Same markup, different theme](intermediate/9-theme-switcher/)
 
 ### Advanced
 *(Coming soon)*
