@@ -7,7 +7,7 @@ const stories = [
 ];
 export function Storylist() {
   return (
-    <div className="flex gap-4 overflow-x-auto  h-min">
+    <div className="flex gap-4 overflow-x-auto h-min">
       {stories.map((story) => {
         return <Storycirclecard story={story} />;
       })}
