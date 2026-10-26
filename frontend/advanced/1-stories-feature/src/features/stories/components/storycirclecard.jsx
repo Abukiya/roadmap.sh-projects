@@ -1,4 +1,6 @@
+import { useNavigate } from "react-router";
 export function Storycirclecard({ story }) {
+  const navigate = useNavigate();
   return (
     <button
       className={`rounded-full p-0.75 ${
@@ -6,6 +8,7 @@ export function Storycirclecard({ story }) {
           ? "bg-zinc-300 dark:bg-zinc-700"
           : "bg-linear-to-tr from-amber-400 via-pink-500 to-purple-600"
       }`}
+      onClick={() => navigate("/service")}
     >
       <div className="rounded-full bg-white p-0.75 dark:bg-zinc-900">
         <img

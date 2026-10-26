@@ -5,8 +5,7 @@ export function Header() {
         <div className="flex gap-2 item-center">
           <h1 className="text-2xl font-bold self-baseline-last ">Orbit</h1>
           <p className="self-baseline-last">Stories</p>
-        </div>
-        
+        </div>     
       </div>
     </header>
   );
