@@ -1,17 +1,7 @@
 import { Storycirclecard } from "./storycirclecard";
-const stories = [
-  { id: 1, image: "/a.jpg", viewed: false },
-  { id: 2, image: "/b.jpg", viewed: true },
-  { id: 3, image: "/a.jpg", viewed: false },
-  { id: 4, image: "/b.jpg", viewed: true },
-  { id: 1, image: "/a.jpg", viewed: false },
-  { id: 2, image: "/b.jpg", viewed: true },
-  { id: 3, image: "/a.jpg", viewed: false },
-  { id: 4, image: "/b.jpg", viewed: true },
-];
-export function Storylist() {
+export function Storylist({ stories }) {
   return (
-    <div className="flex gap-4 overflow-x-auto h-min">
+    <div className="flex gap-4 overflow-x-auto h-min bg-blue-300">
       {stories.map((story) => {
         return <Storycirclecard key={story.id} story={story} />;
       })}

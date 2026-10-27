@@ -1,12 +1,9 @@
-export function Storyadd({setIsaddsheetopen}) {
+import { UserRound } from 'lucide-react';
+export function Storyadd({ setIsaddsheetopen }) {
   return (
-    <div class="relative" onClick={()=>setIsaddsheetopen(true)}>
-      <div className="rounded-full bg-white p-0.75 dark:bg-zinc-900">
-        <img
-          src="..."
-          alt=""
-          className="size-17 rounded-full object-cover"
-        />
+    <div className="relative" onClick={() => setIsaddsheetopen(true)}>
+      <div className="rounded-full bg-white p-0.75 dark:bg-zinc-600">
+        <UserRound size={72} />
       </div>
       <span className="absolute bottom-0.5 right-0.5 flex size-5 items-center justify-center rounded-full border-2 border-white bg-blue-500 text-xs text-white dark:border-zinc-900">
         +
