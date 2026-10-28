@@ -33,6 +33,23 @@ Each skill folder contains:
 - **`SKILL.md`**: Contains YAML frontmatter (`name`, `description`) and the execution instructions/guardrails for the AI.
 - **`README.md`**: Human-readable documentation, rationale, and usage examples.
 
+## Global Availability
+
+The `write-readme` workflow is also installed globally so it can be used from
+Copilot, Freebuff, and Hermes:
+
+- Canonical Copilot/Freebuff skill: `~/.agents/skills/write-readme`
+- Hermes skill copy: `~/.hermes/skills/write-readme`
+- Repository-local OpenCode copy: `.opencode/skills/write-readme`
+
+Use the same explicit trigger in each tool:
+
+```text
+Write readme for project #X <slug>, I learned ...
+```
+
+Keep the three `SKILL.md` files aligned when changing the workflow.
+
 ---
 
 ## Workflow Relationship

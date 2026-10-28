@@ -1,6 +1,6 @@
 ---
 name: write-readme
-description: Use when the user says "Write readme for project #X <slug>, I learned..." to automatically create a README file for a roadmap.sh project following the established structure.
+description: Use when the user says "Write readme for project #X <slug>, I learned..." to create a standardized README for a roadmap.sh project.
 ---
 
 # Write README Skill

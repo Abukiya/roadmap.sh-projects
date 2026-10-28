@@ -46,7 +46,7 @@ frontend/
 - [Theme Switcher](intermediate/9-theme-switcher/)
 
 ### Advanced
-*(Coming soon)*
+- [Stories Feature](advanced/1-stories-feature/)
 
 ## Tech Stack
 
