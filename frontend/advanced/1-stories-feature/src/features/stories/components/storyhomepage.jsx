@@ -5,7 +5,7 @@ import { useState } from "react";
 export function Homepage({stories,setStories}) {
   const [isaddsheetopen, setIsaddsheetopen] = useState(false);
   return (
-    <div className="flex flex-col  bg-fuchsia-400 w-full max-w-lg">
+    <div className="flex flex-col w-full max-w-lg">
       <Storybar
         stories={stories}
         setIsaddsheetopen={setIsaddsheetopen}
